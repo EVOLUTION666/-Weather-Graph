@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+#gradient_text {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #833ab4 33%, #fd1d1d 66%, #fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+
+#container {
+    height: 400px;
+    min-width: 310px;
+    background-color: aquamarine;
+}
+#background {
+    height: 300px;
+    width: 1920px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #232526 0%, #414345 85%);
+}
